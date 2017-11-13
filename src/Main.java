@@ -44,7 +44,7 @@ public class Main {
      */
     private static ArrayList sortArray(ArrayList<Integer> list) {
 
-        for(int index =0; index < list.size() - 1; index++){
+        for(int index =0; index < list.size(); index++){
             int currentMinVal = list.get(index);
             int currentIndex = index;
 
